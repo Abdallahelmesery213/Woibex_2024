@@ -1,0 +1,752 @@
+@font-face{
+    font-family: bruumBoldFont;
+    src: url(https://datamatixgroup.com/asset/fonts/Bruum\ FY\ Bold.otf);
+}
+@font-face{
+    font-family: bruumFont;
+    src: url(https://datamatixgroup.com/asset/fonts/Bruum\ FY\ Black.otf);
+}
+@font-face{
+    font-family: bruumLightFont;
+    src: url(https://datamatixgroup.com/asset/fonts/Bruum\ FY\ Light.otf);
+}
+@font-face{
+    font-family: newJuneBoldFont;
+    src: url(./../fonts/NewJune-Bold.otf);
+}
+@font-face{
+    font-family: newJuneMedFont;
+    src: url(./../fonts/NewJune-Medium.otf);
+}
+
+*{
+    font-family: bruumLightFont;
+    margin: 0;
+    padding: 0;
+}
+ul{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/* start home sreen */
+
+/* start header */
+header{
+    position: relative;
+    width: 100%;
+    min-height: 180px;
+}
+
+header .right-part{
+    position: absolute;
+    width: 74%;
+    top: 0;
+    right: 0;
+}
+header .right-part .nav1{
+    background-color: #f1f1f2;
+    min-height: 55px;
+    display: flex;
+    align-items: center;
+}
+header .right-part .nav1 p{
+    font-size: 16px;
+    margin-bottom: 0;
+    margin-left: 30px;
+}
+header .right-part .nav1 .dropdowns{
+    display: flex;
+    justify-content: space-evenly;
+}
+header .right-part .nav1 button{
+    border: none;
+    font-size: 14px;
+}
+header .right-part .nav2{
+    background-color: #000;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+header .nav2 ul li{
+    position: relative;
+    cursor: pointer;
+}
+header .nav2 ul li:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 18px;
+    bottom: 2px;
+    background-color: #fff;
+}
+header .right-part .nav2 a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-family: bruumBoldFont;
+    margin-right: 16px !important;
+}
+header .right-part .nav3{
+    background-color: #fff;
+    min-height: 55px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+header .right-part .nav3 a{
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    font-family: bruumBoldFont;
+    margin-right: 16px !important;
+}
+header .nav3 ul li{
+    position: relative;
+    cursor: pointer;
+}
+header .nav3 ul li:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 18px;
+    bottom: 2px;
+    background-color: #000;
+}
+/* end header */
+
+.counter-top{
+    background-color: #1a1a1a;
+    padding: 20px 30px;
+}
+.counter-top .btns {
+    /* display: flex;
+    justify-content: space-evenly;
+    align-items: center; */
+    width: 90%;
+}
+.counter-top .btn{
+    min-height: 35px;
+    color: #f1efef;
+    background-color: #1b75bb;
+    border: none;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 0;
+}
+.counter-top .btn a{
+    text-decoration: none;
+    color: #e2eef7;
+}
+.counter-top .btns .btn-success{
+    background-color: #3f3f3f;
+}
+.counter-top p{
+    font-size: 16px;
+    margin-bottom: 0;
+    text-align: center;
+    color: #c3c3c3;
+}   
+.counter-top button.btn{
+    font-size: 14px;
+}   
+/* start counter */
+.counter{
+    margin: 30px 0;
+}
+.counter h2{
+    font-family: bruumBoldFont;
+    color: #ff2020;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 5px;
+}
+.counter i{
+    font-size: 35px;
+    color: #888686;
+}
+.counter img{
+    margin: 10px auto;    
+}
+.counter p{
+    color: #888686;
+}
+/* end counter */
+.datamatix-section{
+    margin: 30px 0;
+}
+.datamatix-section h3{
+    font-family: bruumBoldFont;
+    font-size: 28px;
+    margin-bottom: 30px;
+    /* border-left: 4px solid #3f3f3f;
+    padding-left: 20px; */
+}
+.datamatix-section .lists ul li{
+    text-transform: capitalize;
+}
+.datamatix-section p{
+    font-size: 22px;
+    line-height: 32px;
+    width: 79%;
+}
+.datamatix-section a{
+    color: #3f3f3f !important;
+    font-size: 17px;
+    cursor: pointer;
+    text-decoration: none;
+}
+h2.main-header{
+    font-family: newJuneBoldFont;
+    margin: 40px 0;
+}
+h2.main-header-bruum{
+    font-family: bruumBoldFont;
+    text-align: center;
+    font-size: 25px;
+    line-height: 35px;
+}
+p.main-text{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+}
+/* start banners */
+.bannerTop{
+    background-image: url(./../img/Woibex_banner_2.jpg);
+    width: 100%;
+    height: 580px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.banner{
+    /* border-bottom: 10px solid #3f3f3f; */
+    width: 100%;
+    height: 780px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.banner.bannerLeft{
+    background-position: left;
+}
+.banner.bannerRight{
+    background-position: right;
+}
+.banner .banner-text{
+    margin-top: 50%;
+}
+.banner.bannerRight .banner-text{
+    text-align: right;
+}
+.banner.bannerRight .banner-text p{
+    margin-left: auto !important;
+}
+.banner .banner-text h3{
+    font-family: newJuneBoldFont;
+    font-size: 35px;
+    line-height: 47px;
+    margin-bottom: 25px;
+}
+.banner .banner-text p{
+    font-family: newJuneMedFont;
+    font-size: 24px;
+    line-height: 30px;
+    width: 90%;
+}
+.banner-1{
+    background-image: url(./../img/Woibex_banner_3.jpg);
+}
+.banner-2{
+    background-image: url(./../img/Woibex_banner_4.jpg);
+}
+
+.banner-center{
+    margin: 60px 0 30px;
+}
+.img-center{
+    border: 1px solid #ff2020;
+    padding: 10px;
+}
+/* end banners */
+
+/* start awards */
+.awards-1 .award1-img{
+    border: 1px solid #ff2020;
+    padding: 10px;
+}
+.awards-1 p{
+    text-align: center;
+    margin: 30px auto 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+/* start awards-2 */
+.awards-2{
+    position: relative;
+    min-height: 690px;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    margin-bottom: 30px;
+}
+.awards-2 img{
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    left: 9%;
+    top: 0;
+    bottom: 0;
+}
+.awards-2 section{
+    position: absolute;
+    z-index: 10;
+    bottom: 0;
+    border: 1px solid #ff2020;
+    padding: 10px;
+    width: 30%;
+    right: 6%;
+    height: 75%;
+    background-color: #fff;
+}
+.awards-2 section .text{
+    position: absolute;
+    border: 1px solid #ff2020;
+    padding: 20px;
+    text-align: center;
+    height: 97%;
+    width: 95%;
+}
+.awards-2 section .text main{
+    margin-top: 20%;
+}
+.awards-2 section .text main h5{
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 600;
+}
+.awards-2 section .text main hr{
+    width: 90%;
+    margin: 20px auto;
+}
+.awards-2 section .text main p{
+    color: #403d3d;
+    font-size: 16px;
+    margin: auto;
+    width: 90%;
+}
+/* end awards-2 */
+
+/* start awards-3 */
+.awards-3{
+    position: relative;
+    min-height: 690px;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.awards-3 img{
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    right: 6%;
+    top: 0;
+    bottom: 0;
+}
+.awards-3 section{
+    position: absolute;
+    z-index: 10;
+    bottom: 0;
+    border: 1px solid #ff2020;
+    padding: 10px;
+    width: 30%;
+    left: 9%;
+    height: 75%;
+    background-color: #fff;
+}
+.awards-3 section .text{
+    position: absolute;
+    border: 1px solid #ff2020;
+    padding: 20px;
+    text-align: center;
+    height: 97%;
+    width: 95%;
+}
+.awards-3 section .text main{
+    margin-top: 20%;
+}
+.awards-3 section .text main h5{
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 600;
+    width: 70%;
+    margin: auto;
+}
+.awards-3 section .text main hr{
+    width: 90%;
+    margin: 20px auto;
+}
+.awards-3 section .text main p{
+    color: #403d3d;
+    font-size: 16px;
+    margin: auto;
+    width: 90%;
+}
+/* end awards-3 */
+
+.paragraph h4{
+    margin: 30px 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+.paragraph p{
+    font-size: 19px;
+    line-height: 28px;
+}
+.paragraph p a{
+    text-decoration: none;
+    color: #ff2020;
+}
+
+/* start award4 */
+.award4{
+    margin: 50px 0;
+}
+.award4 .award4-text{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 95%;
+    margin: auto;
+}
+.award4 .award4-text h5{
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 26px;
+}
+/* end award4 */
+
+/* start award5 */
+.award5{
+    width: 100%;
+    min-height: 250px;
+    background-image: url(../img/Woibex_banner_17.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.award55{
+    background-image: url(../img/Woibex_banner_18.jpg);
+}
+.award5 .award5-text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 10;
+    background-color: #000;
+    opacity: .8;
+    width: 45%;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.award5 .award5-text h5{
+    color: #fff;
+    /* top: 50%;
+    position: relative;
+    transform: translateY(-50%); */
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 22px;
+    line-height: 33px;
+}
+.award5 .award5-text .line{
+    border-bottom: 1px solid #fff;
+    width: 50%;
+    margin: 25px auto;
+}
+/* end award5 */
+
+/* start activities */
+.activities{
+    margin: 30px 0;
+}
+.activities h3{
+    text-align: center;
+    font-family: bruumBoldFont;
+    margin: 40px 0;
+}
+.activities .actv-section{
+    text-align: center;
+}
+.activities .actv-section img{
+    max-height: 90px;
+    margin-bottom: 15px;
+}
+.activities .actv-section p{
+    color: #7a7a7b;
+    font-size: 13px;
+    line-height: 20px;
+    font-family: newJuneMedFont;
+}
+.activities .btn.btn-danger{
+    border-radius: 0;
+    margin: 20px auto;
+    width: 20%;
+    background-color: #ec1c24;
+    border-color: #ec1c24;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* end activities */
+
+/* start award-top */
+.award-top{
+    margin: 30px 0;
+}
+.award-top .award-top-main{
+    position: relative;
+    width: 100%;
+    background-image: url(./../img/Woibex_banner_20.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+}
+.award-top .award-top-main.main2{
+    background-image: url(./../img/Woibex_banner_19.jpg);
+}
+.award-top .award-top-main .award-top-section {
+    position: absolute;
+    top: 0;
+    width: 60%;
+    min-height: 35%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    background-color: #000;
+    opacity: .9;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.award-top .award-top-main .award-top-section .line{
+    border-bottom: 1px solid #fff;
+    width: 50%;
+    margin: 0 auto 15px;
+}
+.award-top .award-top-main .award-top-section h5{
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+}
+/* end award-top */
+
+.woibex-title h2{
+    font-family: bruumBoldFont;
+    font-size: 25px;
+    line-height: 35px;
+}
+.woibex-women1{
+    background-image: url(./../img/Woibex_banner_21.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 780px;
+    margin: 30px 0;
+}
+.woibex-women1.woibex-women2{
+    background-image: url(./../img/Woibex_banner_22.jpg);
+    height: 560px;
+}
+
+/* end awards */
+
+/* start footer */
+footer .footer1{
+    background-color: #000;
+    border-bottom: 15px solid #b6b6b6;
+    min-height: 180px;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+} 
+footer .footer1 .btn{
+    background-color: #000;
+    color: #b1b1b1;
+    font-size: 16px;
+    border-color: #4e4e4e;
+    border-radius: 0;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+footer .footer1 p{
+    color: #b1b1b1;
+}
+footer .footer1 .social h5{
+    font-size: 17px;
+    color: #b1b1b1;
+}
+footer .footer1 .social{
+    margin: 0 auto;
+    text-align: center;
+}
+footer .footer1 .social ul li{
+    width: 30px;
+    height: 35px;
+    cursor: pointer;
+}
+/* end footer */
+
+
+/* end home sreen */
+
+/* start media query */
+@media only screen and (min-width: 1400px) {
+    .banner {
+        height: 820px;
+    }
+    .datamatix-section p, .datamatix-section a {
+        font-size: 25px;
+        line-height: 40px;
+    }
+}
+@media only screen and (max-width: 1281px) {
+    .counter-top p{
+        font-size: 14px;
+    }
+    .counter-top .btns {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .datamatix-section p {
+        font-size: 18px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .counter h2 {
+        font-size: 24px;
+    }
+    .datamatix-section p {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 1109px) {
+    .counter-top .btns {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .counter h2 {
+        font-size: 24px;
+    }
+    
+}
+@media only screen and (max-width: 842px) and (min-width: 768px)  {
+    .counter-top button.btn{
+        font-size: 11px;
+    }
+    .counter h2 {
+        font-size: 26px;
+    }
+    .counter-top p{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 842px) and (min-width: 768px)  {
+    .counter-top button.btn{
+        font-size: 11px;
+    }
+    .counter h2 {
+        font-size: 26px;
+    }
+    .counter-top p{
+        font-size: 14px;
+    }
+    .datamatix-section p {
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .counter-top button.btn{
+        width: 100%;
+        margin: 20px auto;
+    }
+    .banner, .bannerTop{
+        width: 100%;
+        height: 400px;
+        background-position: left;
+    }
+    .datamatix-section {
+        margin: 9% auto;
+    }
+    .datamatix-section h3{
+        font-size: 20px;
+    }
+    .datamatix-section p {
+        font-size: 14px;
+        width: 85%;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .counter-top .btns {
+        margin-top: 15px;
+    }
+    .counter-top .btns .btn {
+        width: 100%;
+        margin-top: 5px;
+    }
+    .datamatix-section p{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .datamatix-section p {
+        line-height: 22px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .datamatix-section h3 {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    .datamatix-section p , .datamatix-section a {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .datamatix-section{
+        margin-bottom: 25px;
+    }
+}
+
+/* end media query */
