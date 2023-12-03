@@ -991,6 +991,10 @@ footer .footer3 ul li a{
     footer .footer2 .logo h5 br {
         display: none;
     }
+    /* start gallery screen */
+    .photo-gallery h4 br{
+        display: none;
+    }
 
 }
 @media only screen and (max-width: 575px) {
@@ -1052,6 +1056,18 @@ footer .footer3 ul li a{
     footer .footer2 .logo h5 {
         font-size: 20px;
     }
+    /* start gallery screen */
+    .photo-gallery h4 {
+        font-size: 16px;
+        text-align: center;
+    }
+    .photo-gallery .accordion-body h5, 
+    .photo-gallery .accordion-item button {
+        font-size: 16px !important;
+    }
+    .photo-gallery .accordion-body p{
+        font-size: 14px;
+    }
 }
 @media only screen and (max-width: 505px) {
     header .right-part .nav1 .dropdowns {
@@ -1086,5 +1102,66 @@ footer .footer3 ul li a{
         margin-bottom: 25px;
     }
 }
-
 /* end media query */
+
+/* start gallery screen */
+.gallery-screen .photo-gallery{
+    border-top: 4px solid #ff2020;
+    padding-top: 35px;
+    margin-bottom: 40px;
+}
+.photo-gallery  h4{
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+.photo-gallery .accordion-item {
+    border: none !important;
+    border-bottom: 1px solid #dde5ec !important;
+    margin-bottom: 10px;
+}
+.photo-gallery .accordion-item:last-of-type{
+    border-bottom: none !important;
+}
+.photo-gallery .accordion-item button{
+    border: none !important;
+    outline: none !important;
+    font-size: 20px;
+    font-weight: bold;
+}
+.photo-gallery .accordion-body h5{
+    color: #ff2020;
+    font-weight: bold;
+    border-top: 1px solid #dde5ec;
+    padding-top: 10px;
+    margin-left: 50px;
+}
+.photo-gallery .accordion-body p{
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+.photo-gallery .accordion-button::after{
+    position: absolute;
+    left: -5px;
+    /* margin-left: -15px; */
+    background-image: url(./../img/icon-right.png);
+}
+.accordion-button:not(.collapsed)::after{
+    transform: rotate(90deg);
+}
+/* .photo-gallery .line{
+    border-bottom: 1px solid #dde5ec;
+    width: 100%;
+} */
+.photo-gallery .accordion-button:not(.collapsed){
+    background-color: #fff !important;
+    box-shadow: none !important;
+    display: flex;
+    margin-left: 50px;
+    width: 85%;
+}
+.photo-gallery .accordion-button:focus{
+    box-shadow: none !important;
+}
+/* end gallery screen */
