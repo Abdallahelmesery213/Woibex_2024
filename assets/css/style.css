@@ -662,13 +662,13 @@ footer .footer2 .links {
 footer .footer2 .links h5{
     color: #f9f9f9;
     margin-bottom: 20px;
-    font-size: 18px;
+    font-size: 20px;
 }
 footer .footer2 .links p{
     color: #929292;
     cursor: pointer;
     margin-bottom: 8px;
-    font-size: 15px;
+    font-size: 17px;
 }
 footer .footer2 .apps{
     padding-top: 10%;
@@ -742,6 +742,12 @@ footer .footer3 ul li a{
     .datamatix-section p {
         font-size: 18px;
         width: 100%;
+    }
+    footer .footer2 .links h5 {
+        font-size: 17px;
+    }
+    footer .footer2 .links p{
+        font-size: 15px;
     }
 }
 
