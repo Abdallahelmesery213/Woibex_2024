@@ -716,8 +716,149 @@ footer .footer3 ul li a{
 }
 /* end footer */
 
-
 /* end home sreen */
+
+
+/* start gallery screen */
+.photo-gallery{
+    border-top: 4px solid #ff2020;
+    padding-top: 35px;
+    margin-bottom: 40px;
+}
+.photo-gallery  h4{
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+.photo-gallery .accordion-item {
+    border: none !important;
+    border-bottom: 1px solid #dde5ec !important;
+    margin-bottom: 10px;
+}
+.photo-gallery .accordion-item:last-of-type{
+    border-bottom: none !important;
+}
+.photo-gallery .accordion-item button{
+    border: none !important;
+    outline: none !important;
+    font-size: 20px;
+    font-weight: bold;
+}
+.photo-gallery .accordion-body h5{
+    color: #ff2020;
+    font-weight: bold;
+    border-top: 1px solid #dde5ec;
+    padding-top: 10px;
+    margin-left: 50px;
+}
+.photo-gallery .accordion-body p{
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+.photo-gallery .accordion-button::after{
+    position: absolute;
+    left: -5px;
+    /* margin-left: -15px; */
+    background-image: url(./../img/icon-right.png);
+}
+.accordion-button:not(.collapsed)::after{
+    transform: rotate(90deg);
+}
+/* .photo-gallery .line{
+    border-bottom: 1px solid #dde5ec;
+    width: 100%;
+} */
+.photo-gallery .accordion-button:not(.collapsed){
+    background-color: #fff !important;
+    box-shadow: none !important;
+    display: flex;
+    margin-left: 50px;
+    width: 85%;
+}
+.photo-gallery .accordion-button:focus{
+    box-shadow: none !important;
+}
+/* end gallery screen */
+
+/* start welcome-screen */
+.welcome-screen .text p{
+    font-size: 20px;
+}
+.welcome-screen .text p a{
+    text-decoration: none;
+    color: #ff2020;
+}
+/* end welcome-screen */
+
+/* start speaker screen */
+.speaker-screen .view-bio{
+    margin: 30px 0 0;
+    padding: 40px 20px;
+    background-color: #f1f1f2;
+    text-align: center;
+}
+.speaker-screen .view-bio .bio-img{
+    margin-bottom: 40px;
+}
+.speaker-screen .view-bio .bio-img img{
+    min-height: 190px;
+}
+.speaker-screen .view-bio .bio-img h5{
+    font-weight: 600;
+    font-size: 20px;
+    margin: 10px 0;
+}
+.speaker-screen .view-bio .bio-img .btn.btn-danger{
+    background-color: #ff0000;
+    border-color: #ff0000;
+    border-radius: 0;
+    font-size: 14px;
+    color: #ffe9e9;
+}
+.speaker-screen .speaker{
+    display: flex;
+    width: 100%;
+    height: 275px;
+    position: relative;
+}
+.speaker-screen .speaker .speaker-text{
+    background-color: #000;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 45%;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.speaker-screen .speaker .speaker-text h5{
+    color: #fff;
+    text-align: center;
+    width: 70%;
+    line-height: 33px;
+    font-size: 22px;
+}
+.speaker-screen .speaker .speaker-text .line{
+    border-bottom: 1px solid #fff;
+    width: 35%;
+    margin: 25px auto;
+}
+.speaker-screen .speaker .speaker-img{
+    width: 55%;
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+.speaker-screen .speaker .speaker-img img{
+    width: 100%;
+    height: 275px;
+}
+/* end speaker screen */
+
 
 /* start media query */
 @media only screen and (min-width: 1400px) {
@@ -999,6 +1140,12 @@ footer .footer3 ul li a{
     .welcome-screen .text p{
         font-size: 17px !important;
     }
+    /* start speaker screen */
+    .speaker-screen .speaker .speaker-text h5 {
+        width: 100% !important;
+        line-height: 30px !important;
+        font-size: 17px !important;
+    }
 
 }
 @media only screen and (max-width: 575px) {
@@ -1077,7 +1224,21 @@ footer .footer3 ul li a{
     }
     /* start welcome screen */
     .welcome-screen .text p {
-        font-size: 15px !important;
+        font-size: 15px;
+    }
+    /* start speaker screen */
+    .speaker-screen .view-bio .bio-img h5 {
+        font-size: 16px;
+    }
+    .speaker-screen .view-bio .bio-img .btn.btn-danger{
+        font-size: 12px;
+    }
+    .speaker-screen .speaker .speaker-text h5 {
+        line-height: 24px;
+        font-size: 16px;
+    }
+    .speaker-screen .speaker .speaker-text .line {
+        margin: 15px auto;
     }
 }
 @media only screen and (max-width: 505px) {
@@ -1114,75 +1275,3 @@ footer .footer3 ul li a{
     }
 }
 /* end media query */
-
-/* start gallery screen */
-.photo-gallery{
-    border-top: 4px solid #ff2020;
-    padding-top: 35px;
-    margin-bottom: 40px;
-}
-.photo-gallery  h4{
-    font-weight: bold;
-    font-size: 19px;
-    line-height: 26px;
-    margin-bottom: 20px;
-}
-.photo-gallery .accordion-item {
-    border: none !important;
-    border-bottom: 1px solid #dde5ec !important;
-    margin-bottom: 10px;
-}
-.photo-gallery .accordion-item:last-of-type{
-    border-bottom: none !important;
-}
-.photo-gallery .accordion-item button{
-    border: none !important;
-    outline: none !important;
-    font-size: 20px;
-    font-weight: bold;
-}
-.photo-gallery .accordion-body h5{
-    color: #ff2020;
-    font-weight: bold;
-    border-top: 1px solid #dde5ec;
-    padding-top: 10px;
-    margin-left: 50px;
-}
-.photo-gallery .accordion-body p{
-    margin-bottom: 10px;
-    margin-left: 50px;
-}
-.photo-gallery .accordion-button::after{
-    position: absolute;
-    left: -5px;
-    /* margin-left: -15px; */
-    background-image: url(./../img/icon-right.png);
-}
-.accordion-button:not(.collapsed)::after{
-    transform: rotate(90deg);
-}
-/* .photo-gallery .line{
-    border-bottom: 1px solid #dde5ec;
-    width: 100%;
-} */
-.photo-gallery .accordion-button:not(.collapsed){
-    background-color: #fff !important;
-    box-shadow: none !important;
-    display: flex;
-    margin-left: 50px;
-    width: 85%;
-}
-.photo-gallery .accordion-button:focus{
-    box-shadow: none !important;
-}
-/* end gallery screen */
-
-/* start welcome-screen */
-.welcome-screen .text p{
-    font-size: 20px;
-}
-.welcome-screen .text p a{
-    text-decoration: none;
-    color: #ff2020;
-}
-/* end welcome-screen */
