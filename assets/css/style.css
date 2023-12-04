@@ -995,6 +995,10 @@ footer .footer3 ul li a{
     .photo-gallery h4 br{
         display: none;
     }
+    /* start welcome screen */
+    .welcome-screen .text p{
+        font-size: 17px !important;
+    }
 
 }
 @media only screen and (max-width: 575px) {
@@ -1046,6 +1050,9 @@ footer .footer3 ul li a{
     .datamatix-section p{
         width: 100%;
     }
+    .woibex-women1.woibex-women2 {
+        height: 190px;
+    }
     .award-top .award-top-main .award-top-section h5 {
         font-size: 15px;
         line-height: 23px;
@@ -1067,6 +1074,10 @@ footer .footer3 ul li a{
     }
     .photo-gallery .accordion-body p{
         font-size: 14px;
+    }
+    /* start welcome screen */
+    .welcome-screen .text p {
+        font-size: 15px !important;
     }
 }
 @media only screen and (max-width: 505px) {
@@ -1105,7 +1116,7 @@ footer .footer3 ul li a{
 /* end media query */
 
 /* start gallery screen */
-.gallery-screen .photo-gallery{
+.photo-gallery{
     border-top: 4px solid #ff2020;
     padding-top: 35px;
     margin-bottom: 40px;
@@ -1165,3 +1176,13 @@ footer .footer3 ul li a{
     box-shadow: none !important;
 }
 /* end gallery screen */
+
+/* start welcome-screen */
+.welcome-screen .text p{
+    font-size: 20px;
+}
+.welcome-screen .text p a{
+    text-decoration: none;
+    color: #ff2020;
+}
+/* end welcome-screen */
