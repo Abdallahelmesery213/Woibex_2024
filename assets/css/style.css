@@ -894,6 +894,12 @@ footer .footer3 ul li a{
 }
 .contact-screen .contact-form form .form-select{
     margin-bottom: 0 !important;
+    color: #a1a1a3;
+    font-size: 15px;
+}
+.contact-screen .contact-form form ::placeholder {
+    color: #a1a1a3;
+    font-size: 15px;
 }
 .contact-screen .contact-form form textarea{
     resize: none;
