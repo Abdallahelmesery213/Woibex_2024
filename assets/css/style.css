@@ -944,7 +944,8 @@ footer .footer3 ul li a{
     padding: 40px;
     background-color: #f1f1f2;
 }
-.registration-screen .event-registration{
+.registration-screen .event-registration,
+.event-theme-screen .event-registration{
     border-top: 4px solid #ff2020;
     padding-top: 40px;
 }
@@ -990,6 +991,33 @@ footer .footer3 ul li a{
     box-shadow: none;
 }
 /* end registration screen */
+
+/* start event theme screen */
+.event-theme-screen .event-theme h4{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.event-theme-screen .event-theme p.p-theme{
+    font-size: 20px;
+}
+.event-theme-screen .event-theme .theme-sections{
+    margin-top: 35px;
+}
+.event-theme-screen .event-theme .theme-sections h5{
+    font-weight: 600;
+    width: 80%;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.event-theme-screen .event-theme .theme-sections p{
+    font-size: 18px;
+}
+.event-theme-screen .event-theme .theme-sections .row{
+    margin-bottom: 25px;
+}
+
+/* end event theme screen */
 
 
 /* start media query */
@@ -1282,6 +1310,20 @@ footer .footer3 ul li a{
         line-height: 30px !important;
         font-size: 17px !important;
     }
+    .event-theme-screen .event-theme h4 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .event-theme-screen .event-theme p.p-theme {
+        font-size: 17px;
+    }
+    .event-theme-screen .event-theme .theme-sections h5 {
+        font-size: 20px;
+        width: 100%;
+    }
+    .event-theme-screen .event-theme .theme-sections p{
+        font-size: 16px;
+    }
 
 }
 @media only screen and (max-width: 575px) {
@@ -1385,6 +1427,19 @@ footer .footer3 ul li a{
     .registration-screen .event-registration h4.event{
         text-align: center;
         margin-bottom: 20px;
+    }
+    .event-theme-screen .event-theme h4 {
+        font-size: 18px;
+    }
+    .event-theme-screen .event-theme p.p-theme {
+        font-size: 15px;
+    }
+    .event-theme-screen .event-theme .theme-sections h5 {
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+    .event-theme-screen .event-theme .theme-sections p {
+        font-size: 15px;
     }
 }
 @media only screen and (max-width: 505px) {
