@@ -938,6 +938,59 @@ footer .footer3 ul li a{
 }
 /* end contact screen */
 
+/* start registration screen */
+.registration-screen .contact-text{
+    margin: 30px 0 0;
+    padding: 40px;
+    background-color: #f1f1f2;
+}
+.registration-screen .event-registration{
+    border-top: 4px solid #ff2020;
+    padding-top: 40px;
+}
+.registration-screen .btn-danger{
+    border-radius: 0;
+    background-color: #ff2020;
+    border: none;
+    font-size: 14px;
+    color: #ffe9e9;
+}
+.registration-screen .contact-text .line{
+    border-bottom: 1px solid #d9d7d7;
+    margin: 22px 0;
+}
+.registration-screen .contact-text p{
+    padding: 10px;
+    margin: 5px;
+}
+.registration-screen .contact-text .form-select{
+    min-height: 35px;
+}
+.registration-screen .accordion{
+    background-color: #fff;
+    padding: 20px;
+}
+.registration-screen .accordion .accordion-body p{
+    margin-top: 20px;
+    color: #ff0000;
+    font-weight: bold;
+}
+.registration-screen .accordion .accordion-button{
+    font-weight: bold;
+}
+.registration-screen .accordion-button{
+    background-color: #f1f1f2;
+}
+.registration-screen .accordion-button:not(.collapsed)::after, 
+.registration-screen .accordion-button::after{
+    display: none;
+}
+.registration-screen .accordion-button:not(.collapsed),
+.registration-screen .accordion .accordion-button:focus{
+    box-shadow: none;
+}
+/* end registration screen */
+
 
 /* start media query */
 @media only screen and (min-width: 1400px) {
@@ -1327,6 +1380,11 @@ footer .footer3 ul li a{
     .contact-screen .contact-form form .security .left-part .section1,
     .contact-screen .contact-form form .security .right-part input{
         width: 100%;
+    }
+    /* register screen */
+    .registration-screen .event-registration h4.event{
+        text-align: center;
+        margin-bottom: 20px;
     }
 }
 @media only screen and (max-width: 505px) {
