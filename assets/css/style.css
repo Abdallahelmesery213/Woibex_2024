@@ -205,7 +205,8 @@ header .nav3 ul li:not(:last-child)::after {
 }
 h2.main-header{
     font-family: newJuneBoldFont;
-    margin: 40px 0;
+    margin: 50px 0;
+    text-align: center;
 }
 h2.main-header-bruum{
     font-family: bruumBoldFont;
