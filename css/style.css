@@ -12,12 +12,11 @@
 }
 @font-face{
     font-family: newJuneBoldFont;
-    /* src: url(/fonts/NewJune-Bold.otf); */
-    src: url(http://dtmxapps.com:3030/Websites/woibex-website-2024/fonts/NewJune-Bold.otf);
+    src: url(./../fonts/NewJune-Bold.otf);
 }
 @font-face{
     font-family: newJuneMedFont;
-    src: url(/fonts/NewJune-Medium.otf);
+    src: url(./../fonts/NewJune-Medium.otf);
 }
 
 *{
