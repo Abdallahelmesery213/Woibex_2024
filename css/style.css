@@ -12,11 +12,11 @@
 }
 @font-face{
     font-family: newJuneBoldFont;
-    src: url(./../fonts/NewJune-Bold.otf);
+    src: url(/fonts/NewJune-Bold.otf);
 }
 @font-face{
     font-family: newJuneMedFont;
-    src: url(./../fonts/NewJune-Medium.otf);
+    src: url(/fonts/NewJune-Medium.otf);
 }
 
 *{
@@ -222,7 +222,7 @@ p.main-text{
 }
 /* start banners */
 .bannerTop{
-    background-image: url(./../img/Woibex_banner_2.jpg);
+    background-image: url(/images/Woibex_banner_2.jpg);
     width: 100%;
     height: 580px;
     background-size: cover;
@@ -266,10 +266,10 @@ p.main-text{
     width: 90%;
 }
 .banner-1{
-    background-image: url(./../img/Woibex_banner_3.jpg);
+    background-image: url(/images/Woibex_banner_3.jpg);
 }
 .banner-2{
-    background-image: url(./../img/Woibex_banner_4.jpg);
+    background-image: url(/images/Woibex_banner_4.jpg);
 }
 
 .banner-center{
@@ -447,13 +447,13 @@ p.main-text{
 .award5{
     width: 100%;
     min-height: 250px;
-    background-image: url(../img/Woibex_banner_17.jpg);
+    background-image: url(/images/Woibex_banner_17.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
 }
 .award55{
-    background-image: url(../img/Woibex_banner_18.jpg);
+    background-image: url(/images/Woibex_banner_18.jpg);
 }
 .award5 .award5-text{
     position: absolute;
@@ -528,13 +528,13 @@ p.main-text{
 .award-top .award-top-main{
     position: relative;
     width: 100%;
-    background-image: url(./../img/Woibex_banner_20.jpg);
+    background-image: url(/images/Woibex_banner_20.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 500px;
 }
 .award-top .award-top-main.main2{
-    background-image: url(./../img/Woibex_banner_19.jpg);
+    background-image: url(/images/Woibex_banner_19.jpg);
 }
 .award-top .award-top-main .award-top-section {
     position: absolute;
@@ -571,7 +571,7 @@ p.main-text{
     line-height: 35px;
 }
 .woibex-women1{
-    background-image: url(./../img/Woibex_banner_21.jpg);
+    background-image: url(/images/Woibex_banner_21.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -579,7 +579,7 @@ p.main-text{
     margin: 30px 0;
 }
 .woibex-women1.woibex-women2{
-    background-image: url(./../img/Woibex_banner_22.jpg);
+    background-image: url(/images/Woibex_banner_22.jpg);
     height: 560px;
 }
 
@@ -761,7 +761,7 @@ footer .footer3 ul li a{
     position: absolute;
     left: -5px;
     /* margin-left: -15px; */
-    background-image: url(./../img/icon-right.png);
+    background-image: url(/images/icon-right.png);
 }
 .accordion-button:not(.collapsed)::after{
     transform: rotate(90deg);
