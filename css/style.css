@@ -1026,6 +1026,58 @@ footer .footer3 ul li a{
 .agenda-screen header .right-part .nav3 a {
     margin-right: 8px !important;
 }
+.agenda-screen .event-agenda{
+    background-color: #f1f1f2;
+    padding: 40px;
+    margin-top: 30px;
+}
+.event-agenda nav{
+    background-color: #e6e7e8;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: inline-flex;
+}
+.event-agenda nav button.nav-link{
+    background-color: #fff;
+    border-radius: 0;
+    margin: 0 5px;
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+    padding: 6px 26px;
+}
+.event-agenda .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: #ff0000;
+}
+.event-agenda h5{
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.agenda-screen .agenda-section{
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #e6e7e8;
+    border-bottom: 3px solid #fff;
+    min-height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.agenda-screen .agenda-section p{
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 15px;
+}
+.agenda-screen .agenda-section ul{
+    padding-left: 1rem;
+    margin-top: 5px;
+}
+.agenda-screen .agenda-section ul li{
+    font-size: 14px;
+    margin-bottom: 4px;
+}
 /* nd agenda-screen */
 
 
@@ -1331,6 +1383,22 @@ footer .footer3 ul li a{
         width: 100%;
     }
     .event-theme-screen .event-theme .theme-sections p{
+        font-size: 16px;
+    }
+    /* start .agenda-screen */
+    .agenda-screen .photo-gallery h4{
+        font-size: 20px;
+        text-align: center;
+    }
+    .agenda-screen .photo-gallery .btn.btn-danger{
+        width: 45%;
+        margin: 1px auto;
+    }
+    .event-agenda nav button.nav-link {
+        font-size: 15px;
+        padding: 3px 15px;
+    }
+    .event-agenda h5{
         font-size: 16px;
     }
 
