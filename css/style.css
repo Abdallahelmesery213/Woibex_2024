@@ -1115,15 +1115,17 @@ footer .footer3 ul li a{
     font-weight: normal;
 }
 .media-screen .contact-text h6.text-red p{
-    color: #000;
+    color: #5c5c5c;
     font-weight: normal;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 .media-screen .contact-text p.text{
     font-size: 20px;
     font-weight: normal;
     color: #000;
     line-height: 25px;
+    margin-top: -20px;
 }
 /* stat profile-screen */
 .profile-screen p.general-defination{
@@ -1133,8 +1135,28 @@ footer .footer3 ul li a{
 .profile-screen .btn-danger{
     font-size: 20px;
 }
-
-
+/* start video-screen */
+.video-screen .video-gallery h4{
+    border-bottom: 4px solid #ff0000;
+    font-family: bruumBoldFont;
+    font-size: 24px;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+}
+.video-screen .video-gallery label{
+    font-weight: bold;
+}
+.video-screen .video-gallery .form-select{
+    width: 47%;
+    margin-left: 20px;
+    min-height: 35px;
+}
+.video-screen .video-gallery .text p{
+    font-size: 20px;
+}
+.video-screen .video-gallery .text p b{
+    font-family: bruumBoldFont;
+}
 /* start media query */
 @media only screen and (min-width: 1400px) {
     .banner {
