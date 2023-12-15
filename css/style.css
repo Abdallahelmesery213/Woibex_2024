@@ -1231,7 +1231,21 @@ footer .footer3 ul li a{
     border-bottom: 1px solid #d2d2d2;
     font-size: 13px;
 }
-
+/* start org-screen */
+.org-screen .section-org{
+    margin-bottom: 25px;
+}
+.org-screen .section-org ul{
+    list-style: none;
+}
+.org-screen .section-org ul li{
+    font-weight: 600;
+    font-size: 16px;
+}
+.org-screen .section-org h5{
+    font-family: bruumBoldFont;
+    font-size: 17px;
+}
 
 
 /* start media query */
