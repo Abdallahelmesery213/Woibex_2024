@@ -1157,6 +1157,27 @@ footer .footer3 ul li a{
 .video-screen .video-gallery .text p b{
     font-family: bruumBoldFont;
 }
+/* start guest-honour-screen */
+.guest-honour-screen header .right-part .nav3 a {
+    margin-right: 5px !important;
+    margin-left: -5px;
+}
+.guest-honour-screen .guest-honour h4{
+    border-bottom: 4px solid #ff0000;
+    font-family: bruumBoldFont;
+    font-size: 24px;
+    margin-bottom: 40px;
+    padding-bottom: 15px;
+}
+.guest-honour-screen .guest-honour table thead{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #ed2139;
+    color: #fff;
+}
+
+
+
 /* start media query */
 @media only screen and (min-width: 1400px) {
     .banner {
