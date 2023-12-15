@@ -1158,22 +1158,78 @@ footer .footer3 ul li a{
     font-family: bruumBoldFont;
 }
 /* start guest-honour-screen */
-.guest-honour-screen header .right-part .nav3 a {
+.guest-honour-screen header .right-part .nav3 a ,
+.guest-participating-screen header .right-part .nav3 a {
     margin-right: 5px !important;
     margin-left: -5px;
 }
-.guest-honour-screen .guest-honour h4{
+.guest-honour-screen .guest-honour h4,
+.guest-participating-screen .guest-honour h4{
     border-bottom: 4px solid #ff0000;
     font-family: bruumBoldFont;
     font-size: 24px;
     margin-bottom: 40px;
     padding-bottom: 15px;
 }
-.guest-honour-screen .guest-honour table thead{
+.guest-honour-screen .guest-honour table thead,
+.guest-participating-screen .guest-honour table thead{
     padding-top: 10px;
     padding-bottom: 10px;
     background: #ed2139;
     color: #fff;
+}
+.guest-participating-screen #countrylist .countrylist {
+    background: #ed2139;
+    color: #fff;
+    font-weight: 700;
+    padding: 10px;
+    font-size: 13px;
+}
+.guest-participating-screen #countrylist .countrylist a{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 5px;
+}
+.guest-participating-screen #countrylist .countrylist a:hover {
+    color: #ffcc05;
+}
+.guest-participating-screen #countrylist .titles {
+    background: #e3e3e3;
+    color: #000;
+    font-weight: 700;
+}
+.guest-participating-screen #countrylist #countryletter td {
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+}
+.guest-participating-screen #countrylist tr:last-child td, .panel:last-child {
+    border-bottom: none;
+}
+.guest-participating-screen #countrylist .countryletter {
+    background: #ffdbdf;
+    font-weight: 700;
+    color: #900;
+    text-align: left;
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+}
+.guest-participating-screen #countrylist .countryletter a {
+    color: #ce0000;
+    font-weight: 400;
+    text-decoration: none;
+}
+.guest-participating-screen #countrylist {
+    border: 1px solid #d2d2d2;
+}
+.guest-participating-screen #countrylist tr td {
+    padding: 10px;
+    text-align: center;
+    border-right: 1px solid #d2d2d2;
+    border-bottom: 1px solid #d2d2d2;
+    font-size: 13px;
 }
 
 
