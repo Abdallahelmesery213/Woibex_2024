@@ -1246,6 +1246,15 @@ footer .footer3 ul li a{
     font-family: bruumBoldFont;
     font-size: 17px;
 }
+.org-screen .form-proposal{
+    width: 40%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 70px;
+}
 
 
 /* start media query */
