@@ -1164,7 +1164,8 @@ footer .footer3 ul li a{
     margin-left: -5px;
 }
 .guest-honour-screen .guest-honour h4,
-.guest-participating-screen .guest-honour h4{
+.guest-participating-screen .guest-honour h4,
+.call-pager{
     border-bottom: 4px solid #ff0000;
     font-family: bruumBoldFont;
     font-size: 24px;
@@ -1235,10 +1236,12 @@ footer .footer3 ul li a{
 .org-screen .section-org{
     margin-bottom: 25px;
 }
-.org-screen .section-org ul{
+.org-screen .section-org ul,
+.call-pager-screen .call-pager-text ul{
     list-style: none;
 }
-.org-screen .section-org ul li{
+.org-screen .section-org ul li,
+.call-pager-screen .call-pager-text ul li{
     font-weight: 600;
     font-size: 16px;
 }
@@ -1255,6 +1258,27 @@ footer .footer3 ul li a{
     text-align: center;
     margin-bottom: 70px;
 }
+/* start call-pager-screen */
+.call-pager-screen .call-pager a{
+    text-decoration: none;
+    color: #fff;
+}
+.call-pager-screen .call-pager-text p{
+    font-size: 16px;
+    font-weight: 600;
+}
+.call-pager-screen .call-pager-text p b,
+.call-pager-screen .call-pager-text h5{
+    font-family: bruumBoldFont;
+}
+.call-pager-screen .call-pager-text h5{
+    margin: 30px 0;
+}
+.call-pager-screen .call-pager-text a{
+    text-decoration: none;
+    color: #ff0000;
+}
+
 
 
 /* start media query */
