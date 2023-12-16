@@ -410,9 +410,9 @@ p.main-text{
     margin-bottom: 40px;
 }
 .paragraph h4{
+    font-family: bruumBoldFont;
     margin: 30px 0;
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 22px;
 }
 .paragraph p{
     font-size: 19px;
@@ -589,6 +589,14 @@ p.main-text{
 .woibex-women1.woibex-women2{
     background-image: url(./../images/Woibex_banner_22.jpg);
     height: 560px;
+}
+/* .images-border{
+    background-color: #eee;  
+    padding: 40px 0; 
+} */
+.images-border .img-center{
+    margin-bottom: 30px;
+    width: 95%;
 }
 
 /* end awards */
@@ -1697,6 +1705,10 @@ footer .footer3 ul li a{
     .award-top .award-top-main .award-top-section h5 {
         font-size: 15px;
         line-height: 23px;
+    }
+    .images-border .img-center{
+        width: 75%;
+        margin: 15px auto;
     }
     footer .footer3 ul li{
         width: 42%;
