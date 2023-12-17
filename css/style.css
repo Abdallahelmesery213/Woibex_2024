@@ -1326,7 +1326,35 @@ footer .footer3 ul li a{
     color: #ff2020;
     font-family: bruumLightFont;
 }
-
+/* start venue screen */
+.venue-screen .event-venue{
+    width: 95%;
+}
+.venue-screen .event-venue h4{
+    border-bottom: 4px solid #ff0000;
+    font-family: bruumBoldFont;
+    font-size: 24px;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+}
+.venue-screen .event-venue a{
+    text-decoration: none;
+    color: #ff0000;
+    font-size: 17px;
+}
+.venue-screen .past-winner h5{
+    font-family: bruumBoldFont;
+    border-bottom: 1px solid #e9e9e9;
+    font-size: 21px;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+}
+.venue-screen .past-winner p{
+    font-size: 17px;
+}
+.venue-screen .past-winner iframe{
+    min-height: 280px;
+}
 
 /* start media query */
 @media only screen and (min-width: 1400px) {
@@ -1647,6 +1675,14 @@ footer .footer3 ul li a{
     }
     .event-agenda h5{
         font-size: 16px;
+    }
+    /* start .venue-screen */
+    .venue-screen .past-winner iframe{
+        width: 95%;
+        margin: 20px auto;
+    }
+    .venue-screen .past-winner h5 {
+        margin-top: 20px;
     }
 
 }
