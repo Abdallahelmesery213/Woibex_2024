@@ -1328,7 +1328,7 @@ footer .footer3 ul li a{
 }
 /* start venue screen */
 .venue-screen .event-venue{
-    width: 95%;
+    width: 98%;
 }
 .venue-screen .event-venue h4{
     border-bottom: 4px solid #ff0000;
@@ -1341,6 +1341,10 @@ footer .footer3 ul li a{
     text-decoration: none;
     color: #ff0000;
     font-size: 17px;
+}
+.venue-screen .past-winner{
+    border-left: 1px solid #e9e9e9;
+    padding-left: 10%;
 }
 .venue-screen .past-winner h5{
     font-family: bruumBoldFont;
@@ -1677,8 +1681,12 @@ footer .footer3 ul li a{
         font-size: 16px;
     }
     /* start .venue-screen */
+    .venue-screen .past-winner{
+        border-left: none;
+        width: 98%;
+    }
     .venue-screen .past-winner iframe{
-        width: 95%;
+        width: 98%;
         margin: 20px auto;
     }
     .venue-screen .past-winner h5 {
