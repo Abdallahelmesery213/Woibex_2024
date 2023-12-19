@@ -590,6 +590,9 @@ p.main-text{
     background-image: url(./../images/speaker-banner.jpg);
     height: 560px;
 } */
+.banner-speaker img{
+    width: 100%;
+}
 /* .images-border{
     background-color: #eee;  
     padding: 40px 0; 
