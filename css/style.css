@@ -587,7 +587,7 @@ p.main-text{
     margin: 30px 0;
 }
 .woibex-women1.woibex-women2{
-    background-image: url(./../images/Woibex_banner_22.jpg);
+    background-image: url(./../images/speaker-banner.jpg);
     height: 560px;
 }
 /* .images-border{
@@ -684,11 +684,12 @@ footer .footer2 .links h5{
     margin-bottom: 20px;
     font-size: 20px;
 }
-footer .footer2 .links p{
+footer .footer2 .links p, footer .footer2 .links p a{
     color: #929292;
     cursor: pointer;
-    margin-bottom: 8px;
+    margin-bottom: 5px;
     font-size: 17px;
+    text-decoration: none;
 }
 footer .footer2 .apps{
     padding-top: 10%;
