@@ -1095,8 +1095,9 @@ footer .footer3 ul li a{
 }
 .agenda-screen .agenda-section p{
     margin-bottom: 0;
-    font-weight: bold;
     font-size: 15px;
+    color: #ff0000;
+    font-family: bruumBoldFont;
 }
 .agenda-screen .agenda-section ul{
     padding-left: 1rem;
