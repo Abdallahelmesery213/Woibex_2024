@@ -3,14 +3,14 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Woibex Registration</title>
+    <title>Woibex Photo Gallery</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">    
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
 
-    <div class="registration-screen">
+    <div class="gallery-screen">
         <!-- start header -->
         <header>
             <div class="container-fluid">
@@ -92,7 +92,6 @@
                                    
                                 </ul>
                             </div>
-                            
                             <div class="nav3">
                                 <ul class="list-unstyled lists">
                                     <li class="list-inline-item">
@@ -110,11 +109,11 @@
                                     <li class="list-inline-item">
                                         <a href="./woibex-registration.html">Registration</a>
                                     </li>
-                                    <!-- <li class="list-inline-item">
+                                    <li class="list-inline-item">
                                         <a href="./woibex-partnership.html">Partnership</a>
-                                    </li> -->
+                                    </li>
                                     <!-- <li class="list-inline-item">
-                                        <a href="woibex-contact.html">Contacts</a>
+                                        <a href="./woibex-contact.html">Contacts</a>
                                     </li> -->
                                 </ul>
                             </div>
@@ -210,187 +209,143 @@
         <!-- end Counter -->
 
         <div class="container">
-            <div class="event-registration">
-                <div class="row">
-                    <div class="col-sm-8"> 
-                        <h4 class="event"> <b style="font-size: 24px;">Event Partnership</b> </h4>
-                    </div>
-                    <div class="col-sm-4 text-sm-end text-center">
-                        <button class="btn btn-danger">
-                            Send Invitation
+            <div class="photo-gallery">
+                <h4>
+                    Please click on the year to view the photo gallery and click on gallery name to view the photos.
+                </h4>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Gallery 2022
                         </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <h5>25th Global Women Leaders Conference</h5>
+                          <p>March 08-09, 2020 | Roda Al Murooj Hotel Dubai | UAE</p>
+                          <h5>25th Global Women Leaders Conference</h5>
+                          <p>March 08-09, 2020 | Roda Al Murooj Hotel Dubai | UAE</p>
+                          <h5>25th Global Women Leaders Conference</h5>
+                          <p>March 08-09, 2020 | Roda Al Murooj Hotel Dubai | UAE</p>
+                        </div>
+                      </div>
                     </div>
-                </div>
-                
-                <div class="contact-text">
-                    <h6>
-                        Please provide the number of delegates that you would like to register and then click continue button.
-                    </h6>
                     <div class="line"></div>
-                    <p style="color: #ec1c24; font-weight: bold; font-size: 20px;">Registration Options Per Participant with Accommodation (5-Star Hotel Room)</p>
-                    <p class="bg-white">
-                        <b>Option 1: </b> USD 3500- Includes 3-days congress pass and 5-nights hotel stay.
-                    </p>
-                    <p>
-                        <b> Option 2: </b> USD 3000- Includes 3-days congress pass and 4-nights hotel stay.
-                    </p>
-                    <p class="bg-white">
-                        <b>Option 3: </b> USD 2300- Includes 2-days congress pass and 3-nightss hotel stay.
-                    </p>
-                    <p>
-                        <b> Option 4: </b> USD 1800- Includes 2-days congress pass and 2-nights hotel stay.
-                    </p>
-                    <p class="bg-white">
-                        <b>Option 5: </b> USD 1400- Includes 1-day congress pass and 2-nights hotel stay.
-                    </p>
-
-                    <p style="color: #ec1c24; font-weight: bold; font-size: 20px;">Registration Options and Fees Per Participant Without Accommodation</p>
-                    <p class="bg-white">
-                        <b>Option 1: </b> USD 1000 for 3-days Congress pass.
-                    </p>
-                    <p>
-                        <b> Option 2: </b> USD 800 for 2-days Congress pass.
-                    </p>
-                    <p class="bg-white">
-                        <b>Option 3: </b> USD 400 for 1-day Congress pass.
-                    </p>
-
-                    <p style="color: #ec1c24; font-weight: bold; font-size: 20px;">No of Attendees :</p>
-
-                    <div class="row">
-                        <div class="col-8">
-                            <select class="form-select form-select-sm mb-3" aria-label="Small select">
-                                <option value="1" selected>1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5</option>
-                                <option value="6">6</option>
-                                <option value="7">7</option>
-                                <option value="8">8</option>
-                                <option value="9">9</option>
-                                <option value="10">10</option>
-                            </select>
-                        </div>
-                        <div class="col-4 text-end">
-                            <button class="btn btn-danger" style="min-height: 35px;"> Continue </button>
-                        </div>
-                    </div>
-
-                    <!-- <p style="color: #ec1c24; font-weight: bold;">Please click on option to view fee details</p> -->
-                   
-                    <!-- <div class="accordion" id="accordionExample">
-                        <div class="accordion-item">
-                          <h2 class="accordion-header" id="headingOne">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-9">
-                                            2-Days Conference Pass for 1- Paticipant
-                                        </div>
-                                        <div class="col-3 text-end">Fee : $ 700</div>
-                                    </div>
-                                </div>
-                            </button>
-                          </h2>
-                          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                              <p class="text-end">Fee : US $700</p>
-                            </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Gallery 2021
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <h5>25th Global Women Leaders Conference</h5>
+                            <p>March 08-09, 2020 | Roda Al Murooj Hotel Dubai | UAE</p>
+                            <h5>25th Global Women Leaders Conference</h5>
+                            <p>March 08-09, 2020 | Roda Al Murooj Hotel Dubai | UAE</p>
+                            <h5>25th Global Women Leaders Conference</h5>
+                            <p>March 08-09, 2020 | Roda Al Murooj Hotel Dubai | UAE</p>
                           </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Gallery 2020
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <h5>25th Global Women Leaders Conference</h5>
+                            <p>March 08-09, 2020 | Roda Al Murooj Hotel Dubai | UAE</p>
+                            <h5>25th Global Women Leaders Conference</h5>
+                            <p>March 08-09, 2020 | Roda Al Murooj Hotel Dubai | UAE</p>
+                            <h5>25th Global Women Leaders Conference</h5>
+                            <p>March 08-09, 2020 | Roda Al Murooj Hotel Dubai | UAE</p>
                         </div>
-
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingTwo">
-                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-9">
-                                            1-Day Conference Pass for 1- Paticipant
-                                        </div>
-                                        <div class="col-3 text-end">Fee : $ 400</div>
-                                    </div>
-                                </div>
-                              </button>
-                            </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p class="text-end">Fee : $ 400</p>
-                                </div>
-                            </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Gallery 2019
+                        </button>
+                      </h2>
+                      <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <h5>25th Global Women Leaders Conference</h5>
+                            <p>March 08-09, 2020 | Roda Al Murooj Hotel Dubai | UAE</p>
+                            <h5>25th Global Women Leaders Conference</h5>
+                            <p>March 08-09, 2020 | Roda Al Murooj Hotel Dubai | UAE</p>
+                            <h5>25th Global Women Leaders Conference</h5>
+                            <p>March 08-09, 2020 | Roda Al Murooj Hotel Dubai | UAE</p>
                         </div>
-
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingThree">
-                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-9">
-                                            2-Days Conference Pass for 5- Paticipants Committees
-                                        </div>
-                                        <div class="col-3 text-end">Fee : $ 3000</div>
-                                    </div>
-                                </div>
-                              </button>
-                            </h2>
-                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p class="text-end">Fee : $ 3000</p>
-                                </div>
-                            </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            Gallery 2018
+                        </button>
+                      </h2>
+                      <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <h5>25th Global Women Leaders Conference</h5>
+                            <p>March 08-09, 2020 | Roda Al Murooj Hotel Dubai | UAE</p>
+                            <h5>25th Global Women Leaders Conference</h5>
+                            <p>March 08-09, 2020 | Roda Al Murooj Hotel Dubai | UAE</p>
+                            <h5>25th Global Women Leaders Conference</h5>
+                            <p>March 08-09, 2020 | Roda Al Murooj Hotel Dubai | UAE</p>
                         </div>
-
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingFour">
-                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-9">
-                                            2-Days Conference Pass for 3- Paticipants Committees
-                                        </div>
-                                        <div class="col-3 text-end">Fee : $ 2000</div>
-                                    </div>
-                                </div>
-                              </button>
-                            </h2>
-                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p class="text-end">Fee : $ 2000</p>
-                                </div>
-                            </div>
-                        </div>
-                        
-                    </div> -->
-                    <p style="color: #ec1c24; font-weight: bold; font-size: 20px;">Registration and Cancellation Procedures</p>
-                    <ul>
-                        <li>Only registered participants will be allowed to attend the proceedings of Congress.</li>
-                        <li>Complete the registration procedures and pay the fees early to ensure the seat reservation</li>
-                        <li>Hotels will be selected by Datamatix and will be 5-star Hotels.</li>
-                        <li>In case the participant wishes to cancel the participation, must be done 30 days before the event.</li>
-                        <li>Certificate of attendance of the event for registered participants </li>
-                        <li>Publications, breakfast, coffee breaks, and lunch during Congress (electronic version)</li>
-                        <li>Light breakfast during the break as well as daily lunches during Congress</li>
-                        <li>Please visit the event's official website regularly for updates. </li>
-                    </ul>
-                    
+                      </div>
+                    </div>
                 </div>
-
             </div>
         </div>
 
-        <!-- <div class="container">
-            <h2 class="main-header text-center">
-                EMPOWERING WOMEN TO DEVELOP THE STRATEGIES <br>
-                AND SKILLS TO BE MORE EFFECTIVE LEADERS
-            </h2>
-        </div> -->
 
-        <!-- <div class="container">
-            <h2 class="main-header main-header-bruum"> Photos + Reviews </h2>
-        </div> -->
-
-        <!-- <div class="woibex-women1 woibex-women2"></div> -->
-
+        <div class="container">
+            <h3 class="text-center fw-bold mb-5">EMPOWERING WOMEN TO DEVELOP THE STRATEGIES <br> AND SKILLS TO BE MORE EFFECTIVE LEADERS</h3>
+            <div id="carouselWoibex" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active img-center">
+                    <img src="./images/slider-3.jpg" class="d-block w-100" alt="img">
+                  </div>
+                  <div class="carousel-item img-center">
+                    <img src="./images/slider-1.jpg" class="d-block w-100" alt="img2">
+                  </div>
+                  <div class="carousel-item img-center">
+                    <img src="./images/slider-2.jpg" class="d-block w-100" alt="img3">
+                  </div>
+                  <div class="carousel-item img-center">
+                    <img src="./images/slider-7.jpg" class="d-block w-100" alt="img4">
+                  </div>
+                  <div class="carousel-item img-center">
+                    <img src="./images/slider-4.jpg" class="d-block w-100" alt="img5">
+                  </div>
+                  <div class="carousel-item img-center">
+                    <img src="./images/slider-5.jpg" class="d-block w-100" alt="img6">
+                  </div>
+                </div>
+                <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselWoibex" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselWoibex" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button> -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselWoibex" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselWoibex" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselWoibex" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselWoibex" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselWoibex" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselWoibex" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                </div>
+            </div>
+        </div>
 
 
         <footer>
