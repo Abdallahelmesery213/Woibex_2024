@@ -10,7 +10,7 @@
   </head>
   <body>
 
-    <div class="registration-screen">
+    <div class="registration-screen contact-screen">
         <!-- start header -->
         <header>
             <div class="container-fluid">
@@ -212,17 +212,181 @@
         <div class="container">
             <div class="event-registration">
                 <div class="row">
-                    <div class="col-sm-8"> 
+                    <!-- <div class="col-sm-8"> 
                         <h4 class="event"> <b style="font-size: 24px;">Event Partnership</b> </h4>
-                    </div>
-                    <div class="col-sm-4 text-sm-end text-center">
+                    </div> -->
+
+                    <!-- <div class="col-sm-4 text-sm-end text-center">
                         <button class="btn btn-danger">
                             Send Invitation
                         </button>
-                    </div>
+                    </div> -->
+                </div>
+
+                <!-- <h2 class="main-header text-start" style="font-size: 25px; margin: 40px 0;"> Contact request form Please fill the below form</h2> -->
+
+                <div class="contact-form contact-text">
+                    <form>
+                        <h6>In order to register, please complete all sections. All sections marked with <span class="required">*</span>  are mandatory.</h6>
+                        <div class="row align-items-center">
+                            <div class="col-md-3 col-sm-4 col-12">
+                                <label class="form-label">Request Type :</label>
+                            </div>
+                            <div class="col-md-9 col-sm-8 col-12">
+                                <select class="form-select form-select-sm mb-3" aria-label="Small select">
+                                    <option selected>Request Type</option>
+                                    <option value="1">typ1</option>
+                                    <option value="2">typ2</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row align-items-center">
+                            <div class="col-md-3 col-sm-4 col-12">
+                                <label for="fullName" class="form-label">Full Name : <span class="required">*</span> </label>
+                            </div>
+                            <div class="col-md-9 col-sm-8 col-12">
+                                <input type="text" id="fullName" class="form-control" placeholder="Enter fullname">
+                            </div>
+                        </div>
+                        <div class="row align-items-center">
+                            <div class="col-md-3 col-sm-4 col-12">
+                                <label for="designation" class="form-label">Designation : <span class="required">*</span></label>
+                            </div>
+                            <div class="col-md-9 col-sm-8 col-12">
+                                <input type="text" id="designation" class="form-control" placeholder="Enter designation">
+                            </div>
+                        </div>
+                        <div class="row align-items-center">
+                            <div class="col-md-3 col-sm-4 col-12">
+                                <label for="organization" class="form-label">Organization : <span class="required">*</span></label>
+                            </div>
+                            <div class="col-md-9 col-sm-8 col-12">
+                                <input type="text" id="organization" class="form-control" placeholder="Enter organizaation">
+                            </div>
+                        </div>
+                        <div class="row align-items-center">
+                            <div class="col-md-3 col-sm-4 col-12">
+                                <label for="type-business" class="form-label">Type of Business : <span class="required">*</span></label>
+                            </div>
+                            <div class="col-md-9 col-sm-8 col-12">
+                                <input type="text" id="type-business" class="form-control" placeholder="Enter type of business">
+                            </div>
+                        </div>
+                        <!-- <div class="row align-items-center">
+                            <div class="col-md-3 col-sm-4 col-12">
+                                <label for="address" class="form-label">Full Address : <span class="required">*</span></label>
+                            </div>
+                            <div class="col-md-9 col-sm-8 col-12">
+                                <textarea id="address" placeholder="enter address" class="form-control" rows="5"></textarea>
+                            </div>
+                        </div> -->
+                        <!-- <div class="row align-items-center">
+                            <div class="col-md-3 col-sm-4 col-12">
+                                <label for="box" class="form-label">P.O.Box : <span class="required">*</span></label>
+                            </div>
+                            <div class="col-md-9 col-sm-8 col-12">
+                                <input type="text" id="box" class="form-control" placeholder="Enter P.O. Box">
+                            </div>
+                        </div> -->
+                        <div class="row align-items-center">
+                            <div class="col-md-3 col-sm-4 col-12">
+                                <label for="city" class="form-label">City :</label>
+                            </div>
+                            <div class="col-md-9 col-sm-8 col-12">
+                                <input type="text" id="city" class="form-control" placeholder="enter city">
+                            </div>
+                        </div>
+                        <div class="row align-items-center">
+                            <div class="col-md-3 col-sm-4 col-12">
+                                <label class="form-label">Country :</label>
+                            </div>
+                            <div class="col-md-9 col-sm-8 col-12">
+                                <select class="form-select form-select-sm mb-3" aria-label="select">
+                                    <option selected>select country</option>
+                                    <option value="1">The UAE</option>
+                                    <option value="3">Saudi Arabia</option>
+                                    <option value="2">ُEgypt</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row align-items-center">
+                            <div class="col-md-3 col-sm-4 col-12">
+                                <label for="website" class="form-label">Website :</label>
+                            </div>
+                            <div class="col-md-9 col-sm-8 col-12">
+                                <input type="text" id="website" class="form-control" placeholder="Enter Website">
+                            </div>
+                        </div>
+                        <!-- <div class="row align-items-center">
+                            <div class="col-md-3 col-sm-4 col-12">
+                                <label for="phone" class="form-label">Phone :</label>
+                            </div>
+                            <div class="col-md-9 col-sm-8 col-12">
+                                <input type="text" id="phone" class="form-control" placeholder="Enter Phone Number">
+                            </div>
+                        </div> -->
+                        <!-- <div class="row align-items-center">
+                            <div class="col-md-3 col-sm-4 col-12">
+                                <label for="fax" class="form-label">Fax :</label>
+                            </div>
+                            <div class="col-md-9 col-sm-8 col-12">
+                                <input type="text" id="fax" class="form-control" placeholder="Enter Fax Number">
+                            </div>
+                        </div> -->
+                        <div class="row align-items-center">
+                            <div class="col-md-3 col-sm-4 col-12">
+                                <label for="mobile" class="form-label">Mobile Number  :</label>
+                            </div>
+                            <div class="col-md-9 col-sm-8 col-12">
+                                <input type="text" id="mobile" class="form-control" placeholder="Enter Mobile Number">
+                            </div>
+                        </div>
+                        <div class="row align-items-center">
+                            <div class="col-md-3 col-sm-4 col-12">
+                                <label for="email" class="form-label">Email : <span class="required">*</span></label>
+                            </div>
+                            <div class="col-md-9 col-sm-8 col-12">
+                                <input type="email" id="email" class="form-control" placeholder="Enter email">
+                            </div>
+                        </div>
+                        <div class="row align-items-center">
+                            <div class="col-md-3 col-sm-4 col-12">
+                                <label class="form-label">Enter Security : <span class="required">*</span></label>
+                            </div>
+                            <div class="col-md-9 col-sm-8 col-12">
+                                <div class="security">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="left-part">
+                                                    <div class="section1"></div>
+                                                    <small>Show another code</small>
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="right-part">
+                                                    <small>Type the code shown:</small>
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row align-items-center">
+                            <div class="col-sm-3 col-12">
+                            </div>
+                            <div class="col-md-9 col-sm-8 col-12">
+                                <input type="submit" value="Submit" class="btn btn-danger">
+                                <!-- <button class="btn btn-danger"><a style="color: #fff; text-decoration: none;" href="./woibex-partnership.html">Submit</a></button> -->
+                            </div>
+                        </div>
+                        
+                    </form>
                 </div>
                 
-                <div class="contact-text">
+                <!-- <div class="contact-text">
                     <h6>
                         Please provide the number of delegates that you would like to register and then click continue button.
                     </h6>
@@ -277,9 +441,9 @@
                         </div>
                     </div>
 
-                    <!-- <p style="color: #ec1c24; font-weight: bold;">Please click on option to view fee details</p> -->
+                    <p style="color: #ec1c24; font-weight: bold;">Please click on option to view fee details</p>
                    
-                    <!-- <div class="accordion" id="accordionExample">
+                    <div class="accordion" id="accordionExample">
                         <div class="accordion-item">
                           <h2 class="accordion-header" id="headingOne">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -360,7 +524,7 @@
                             </div>
                         </div>
                         
-                    </div> -->
+                    </div>
                     <p style="color: #ec1c24; font-weight: bold; font-size: 20px;">Registration and Cancellation Procedures</p>
                     <ul>
                         <li>Only registered participants will be allowed to attend the proceedings of Congress.</li>
@@ -373,7 +537,7 @@
                         <li>Please visit the event's official website regularly for updates. </li>
                     </ul>
                     
-                </div>
+                </div> -->
 
             </div>
         </div>
