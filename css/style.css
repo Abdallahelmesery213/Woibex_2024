@@ -103,7 +103,7 @@ header .right-part .nav3 a{
     color: #000;
     font-size: 14px;
     font-family: bruumBoldFont;
-    margin-right: 16px !important;
+    margin-right: 10px !important;
 }
 header .nav3 ul li{
     position: relative;
@@ -116,6 +116,7 @@ header .nav3 ul li:not(:last-child)::after {
     height: 18px;
     bottom: 2px;
     background-color: #000;
+    right: 0px;
 }
 /* end header */
 
