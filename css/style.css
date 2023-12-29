@@ -1021,9 +1021,9 @@ footer .footer3 ul li a{
 /* end registration screen */
 
 /* start event theme screen */
-.event-theme-screen header .right-part .nav3 a {
+/* .event-theme-screen header .right-part .nav3 a {
     margin-right: 8px !important;
-}
+} */
 .event-theme-screen .event-theme h4{
     font-size: 25px;
     font-weight: 600;
@@ -1050,9 +1050,9 @@ footer .footer3 ul li a{
 /* end event theme screen */
 
 /* start agenda-screen */
-.agenda-screen header .right-part .nav3 a {
+/* .agenda-screen header .right-part .nav3 a {
     margin-right: 8px !important;
-}
+} */
 .agenda-screen .event-agenda{
     background-color: #f1f1f2;
     padding: 40px;
@@ -1186,11 +1186,11 @@ footer .footer3 ul li a{
     font-family: bruumBoldFont;
 }
 /* start guest-honour-screen */
-.guest-honour-screen header .right-part .nav3 a ,
+/* .guest-honour-screen header .right-part .nav3 a ,
 .guest-participating-screen header .right-part .nav3 a {
     margin-right: 7px !important;
     margin-left: -4px;
-}
+} */
 .guest-honour-screen .guest-honour h4,
 .guest-participating-screen .guest-honour h4,
 .call-pager{
