@@ -74,9 +74,13 @@ header .right-part .nav1 .dropdowns{
     display: flex;
     justify-content: space-evenly;
 }
+header .right-part .nav1 .dropdowns .dropdown{
+    direction: rtl;
+}
 header .right-part .nav1 button{
+    font-family: bahijSemiBold;
     border: none;
-    font-size: 14px;
+    font-size: 15px;
 }
 header .right-part .nav2{
     background-color: #000;
@@ -89,7 +93,7 @@ header .nav2 ul li{
     position: relative;
     cursor: pointer;
 }
-header .nav2 ul li:not(:last-child)::after {
+header .nav2 ul li:not(:first-child)::before {
     content: "";
     position: absolute;
     width: 2px;
@@ -100,9 +104,9 @@ header .nav2 ul li:not(:last-child)::after {
 header .right-part .nav2 a{
     text-decoration: none;
     color: #fff;
-    font-size: 14px;
-    font-family: bruumBoldFont;
-    margin-right: 16px !important;
+    font-size: 16px;
+    font-family: bahijSemiBold;
+    margin-left: 16px !important;
 }
 header .right-part .nav3{
     background-color: #fff;
@@ -114,15 +118,15 @@ header .right-part .nav3{
 header .right-part .nav3 a{
     text-decoration: none;
     color: #000;
-    font-size: 14px;
-    font-family: bruumBoldFont;
+    font-size: 16px;
+    font-family: bahijSemiBold;
     margin-right: 10px !important;
 }
 header .nav3 ul li{
     position: relative;
     cursor: pointer;
 }
-header .nav3 ul li:not(:last-child)::after {
+header .nav3 ul li:not(:last-child)::before {
     content: "";
     position: absolute;
     width: 2px;
@@ -1115,11 +1119,13 @@ footer .footer3 ul li a{
 }
 .event-agenda .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
     background-color: #ff0000;
+    font-family: bahijSemiBold;
 }
 .event-agenda h5{
+    font-family: bahijSemiBold;
     margin-bottom: 20px;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 20px;
 }
 .agenda-screen .agenda-section{
     padding-left: 20px;
@@ -1134,15 +1140,16 @@ footer .footer3 ul li a{
 }
 .agenda-screen .agenda-section p{
     margin-bottom: 0;
-    font-size: 15px;
+    font-size: 17px;
     color: #ff0000;
-    font-family: bruumBoldFont;
+    font-family: bahijSemiBold;
 }
 .agenda-screen .agenda-section ul{
     padding-left: 1rem;
     margin-top: 5px;
 }
 .agenda-screen .agenda-section ul li{
+    font-family: bahijSemiBold;
     font-size: 14px;
     margin-bottom: 4px;
 }
