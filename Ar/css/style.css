@@ -1333,12 +1333,24 @@ footer .footer3 ul li a{
     margin-bottom: 70px;
 }
 /* start call-pager-screen */
+.ar.call-pager-screen .call-pager a{
+    font-family: bahijSemiBold;
+    font-size: 20px;
+}
 .call-pager-screen .call-pager a{
     text-decoration: none;
     color: #fff;
 }
+.ar.call-pager-screen .call-pager-text p,
+.ar.call-pager-screen .call-pager-text h5,
+.ar.call-pager-screen .call-pager-text ul li {
+    font-family: bahijSemiBold !important;
+    font-size: 18px !important;
+    /* font-weight: 600; */
+}
 .call-pager-screen .call-pager-text p{
-    font-size: 16px;
+   
+    font-size: 18px;
     font-weight: 600;
 }
 .call-pager-screen .call-pager-text p b,
