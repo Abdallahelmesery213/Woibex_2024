@@ -1096,6 +1096,10 @@ footer .footer3 ul li a{
 /* .agenda-screen header .right-part .nav3 a {
     margin-right: 8px !important;
 } */
+.ar.agenda-screen .photo-gallery .btn-danger,
+.ar.agenda-screen .photo-gallery .btn-danger a{
+    font-family: bahijSemiBold;
+}
 .agenda-screen .event-agenda{
     background-color: #f1f1f2;
     padding: 40px;
@@ -1237,6 +1241,7 @@ footer .footer3 ul li a{
     margin-right: 7px !important;
     margin-left: -4px;
 } */
+
 .guest-honour-screen .guest-honour h4,
 .guest-participating-screen .guest-honour h4,
 .call-pager{
@@ -1245,6 +1250,13 @@ footer .footer3 ul li a{
     font-size: 24px;
     margin-bottom: 40px;
     padding-bottom: 15px;
+}
+.ar.guest-honour-screen h4{
+    font-family: bahijBold;
+    direction: rtl;
+}
+.ar.org-screen .form-proposal, .ar.org-screen .form-proposal label{
+    font-family: bahijSemiBold;
 }
 .guest-honour-screen .guest-honour table thead,
 .guest-participating-screen .guest-honour table thead{
