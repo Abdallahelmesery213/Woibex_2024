@@ -165,6 +165,13 @@ header .nav3 ul li:not(:first-child)::before {
 .counter-top .btn a{
     text-decoration: none;
     color: #e2eef7;
+    font-family: bahijSemiBold;
+}
+.counter-top button{
+  direction: rtl;
+}
+.counter-top button img{
+  padding-left: 5px;
 }
 .counter-top .btns .btn-success{
     background-color: #3f3f3f;
@@ -1361,7 +1368,7 @@ footer .footer3 ul li a{
     /* font-weight: 600; */
 }
 .call-pager-screen .call-pager-text p{
-   
+
     font-size: 18px;
     font-weight: 600;
 }
@@ -1893,6 +1900,22 @@ footer .footer3 ul li a{
     .event-theme-screen .event-theme .theme-sections p {
         font-size: 15px;
     }
+    /* speaker */
+.photo-category{
+  background: #eeeeee;
+  padding: 40px 0;
+}
+.photo-category img{
+  padding: 10px;
+  background-color: #fff;
+}
+.text-category{
+  font-family: bahijSemiBold;
+}
+header .nav2 ul li:last-child::before {
+  margin-right: 70px;
+}
+    /* end speaker */
     /* start media-screen */
     .media-screen .search input{
         width: 65% !important;
