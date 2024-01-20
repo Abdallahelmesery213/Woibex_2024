@@ -819,7 +819,10 @@ footer .footer3 ul li a{
     color: #ff2020;
 }
 /* end welcome-screen */
-
+.bio-img button{
+    display: flex;
+    margin: auto;
+}
 /* start speaker screen */
 .speaker-screen .view-bio{
     margin: 30px 0 0;
