@@ -247,10 +247,13 @@ p.main-text{
     background-position: right;
 }
 .banner .banner-text{
-    margin-top: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
 .banner.bannerRight .banner-text{
     text-align: right;
+    margin-right: 5%;
 }
 .banner.bannerRight .banner-text p{
     margin-left: auto !important;
@@ -259,7 +262,7 @@ p.main-text{
     font-family: newJuneBoldFont;
     font-size: 35px;
     line-height: 47px;
-    margin-bottom: 25px;
+    /* margin-bottom: 25px; */
 }
 .banner .banner-text p{
     font-family: newJuneMedFont;
