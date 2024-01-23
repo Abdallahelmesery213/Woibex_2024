@@ -1382,10 +1382,14 @@ footer .footer3 ul li a{
 .call-pager-screen .call-pager-text h5{
     margin: 30px 0;
 }
-.call-pager-screen .call-pager-text a{
+.call-pager-screen .call-pager-text ul li{
+    list-style: inside;
+    margin-bottom: 10px;
+}
+/* .call-pager-screen .call-pager-text a{
     text-decoration: none;
     color: #ff0000;
-}
+} */
 /* start what-we-do-screen */
 .what-we-do-screen .what-we-do .section1 h4{
     border-top: 4px solid #ff2020;
