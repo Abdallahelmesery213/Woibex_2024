@@ -119,6 +119,12 @@ header .nav3 ul li:not(:last-child)::after {
     background-color: #000;
     right: 0px;
 }
+.home-screen header ul li:not(:last-child)::after {
+    right: 1px;
+}
+.home-screen .list-inline-item:not(:last-child){
+    margin-right: 0;
+}
 /* end header */
 
 .counter-top{
@@ -1346,6 +1352,21 @@ footer .footer3 ul li a{
     font-family: bruumLightFont;
 }
 /* start venue screen */
+.venue-screen .text h2{
+    font-family: bruumBoldFont;
+    color: #000;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.venue-screen .text p{
+    font-size: 20px;
+    line-height: 33px;
+    font-family: bruumLightFont;
+    margin-bottom: .5rem;
+}
+.venue-screen .text a{
+    text-decoration: none;
+}
 .venue-screen .event-venue{
     width: 98%;
 }

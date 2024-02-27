@@ -1419,6 +1419,29 @@ footer .footer3 ul li a{
     font-family: bruumLightFont;
 }
 /* start venue screen */
+.venue-screen .text h2{
+    font-family: bahijBold;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+.venue-screen .text b{
+    margin-left: 4px;
+}
+.venue-screen .text p,
+.venue-screen .text a,
+.venue-screen .text ul li{
+    font-size: 20px;
+    font-family: bahijSemiBold;;
+    margin-bottom: .5rem;
+}
+.venue-screen .text ul {
+    padding-right: 35px;
+}
+.venue-screen .text a{
+    text-decoration: none;
+}
 .venue-screen .event-venue{
     width: 98%;
 }
