@@ -845,6 +845,22 @@ footer .footer3 ul li a{
 .speaker-screen .view-bio .bio-img img{
     min-height: 190px;
 }
+.speaker-screen .view-bio .bio-img .img9{
+    background-image: url(./../images/speaker-9.png.jpg);
+    background-size: cover;
+    width: 180px;
+    height: 190px;
+    background-position: center;
+    margin: auto;
+}
+.speaker-screen .view-bio .bio-img .img10{
+    background-image: url(./../images/speaker-10.png.jpg);
+    background-size: cover;
+    width: 180px;
+    height: 190px;
+    background-position: center;
+    margin: auto;
+}
 .speaker-screen .view-bio .bio-img h5{
     font-weight: 600;
     font-size: 20px;
