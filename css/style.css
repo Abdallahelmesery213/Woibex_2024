@@ -1380,6 +1380,9 @@ footer .footer3 ul li a{
     font-family: bruumLightFont;
     margin-bottom: .5rem;
 }
+.venue-screen .text p b{
+    font-family: bruumBoldFont;
+}
 .venue-screen .text a{
     text-decoration: none;
 }
