@@ -934,11 +934,11 @@ footer .footer3 ul li a{
     margin: auto;
 }
 .speaker-screen .view-bio .bio-img .img15{
-    background-image: url(./../images/speaker-15.jpg);
+    background-image: url(./../images/speakerr-15.jpg);
     background-size: cover;
     width: 180px;
     height: 190px;
-    background-position: bottom;
+    /* background-position: bottom; */
     margin: auto;
 }
 .speaker-screen .view-bio .bio-img .img16{
