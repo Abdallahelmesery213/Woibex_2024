@@ -901,6 +901,22 @@ footer .footer3 ul li a{
     background-position: bottom;
     margin: auto;
 }
+.speaker-screen .view-bio .bio-img .img16{
+    background-image: url(./../images/speaker-16.jpg);
+    background-size: cover;
+    width: 180px;
+    height: 190px;
+    background-position: center;
+    margin: auto;
+}
+.speaker-screen .view-bio .bio-img .img17{
+    background-image: url(./../images/speaker-17.jpg);
+    background-size: cover;
+    width: 180px;
+    height: 190px;
+    background-position: center;
+    margin: auto;
+}
 .speaker-screen .view-bio .bio-img h5{
     font-weight: 600;
     font-size: 20px;
