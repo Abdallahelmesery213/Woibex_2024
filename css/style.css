@@ -125,6 +125,13 @@ header .nav3 ul li:not(:last-child)::after {
 .home-screen .list-inline-item:not(:last-child){
     margin-right: 0;
 }
+.speaker-screen header .right-part .nav3 a {
+    font-size: 13px;
+    margin-right: 5px !important;
+}
+.speaker-screen header .nav3 ul li:not(:last-child)::after {
+    right: -5px;
+}
 /* end header */
 
 .counter-top{
