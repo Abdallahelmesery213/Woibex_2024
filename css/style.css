@@ -24,6 +24,9 @@
     margin: 0;
     padding: 0;
 }
+a{
+    text-decoration: none;
+}
 ul{
     margin-top: 0;
     margin-bottom: 0;
@@ -31,7 +34,68 @@ ul{
 /* start home sreen */
 
 /* start header */
-header{
+header .nav1{
+    min-height: 250px;
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+}
+header .nav1 .langs{
+    position: relative;
+    z-index: 100;
+    margin-top: 8px;
+}
+header .nav1 a img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+header .nav1 .langs a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+header .nav1 .langs span.mx-2{
+    border-left: 2px solid ;
+    padding-left: 8px;
+}
+header .nav2{
+    width: 90%;
+    margin: 0 auto;
+    background-color: #ff2020;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+header .nav2 ul,
+header .nav3 ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header .nav2 a{
+    color: #fff;
+    font-size: 19px;
+}
+header .nav3{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+header .nav3 a{
+    font-size: 19px;
+    color: #000;
+}
+
+/* end header 2025 */
+/* header{
     position: relative;
     width: 100%;
     min-height: 170px;
@@ -128,9 +192,6 @@ header .nav3 ul li:not(:last-child)::after {
 .speaker-screen header .right-part .nav3 a {
     font-size: 13px;
     margin-right: 5px !important;
-}
-/* .speaker-screen header .nav3 ul li:not(:last-child)::after {
-    right: -5px;
 } */
 /* end header */
 
