@@ -14,11 +14,31 @@
     font-family: newJuneBoldFont;
     src: url(./../fonts/NewJune-Bold.otf);
 }
+@font-face {
+  font-family: BruumFY-Regular;
+  src: url("../fonts/BruumFY-Regular.otf");
+}
+@font-face {
+  font-family: BruumFY-Light;
+  src: url("../fonts/BruumFY-Light.otf");
+}
 @font-face{
     font-family: newJuneMedFont;
     src: url(./../fonts/NewJune-Medium.otf);
 }
 
+.footer2 .logo img{
+  width:75%;
+}
+.apps img{
+  width: 100%;
+}
+.apps {
+  text-align: center;
+}
+.apps .social-part{
+  margin-bottom: 15px;
+}
 *{
     font-family: bruumLightFont;
     margin: 0;
@@ -64,36 +84,69 @@ header .nav1 .langs span.mx-2{
     padding-left: 8px;
 }
 header .nav2{
-    width: 90%;
+    width:100%;
     margin: 0 auto;
-    background-color: #ff2020;
+    background-color: #ec2024;
     margin-bottom: 20px;
     display: flex;
     justify-content: center;
     padding: 10px 0;
+    text-align: center;
 }
-header .nav2 ul,
+/* header .nav2 ul,
 header .nav3 ul{
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
+} */
 header .nav2 a{
     color: #fff;
-    font-size: 19px;
+    font-size: 18px;
 }
+
 header .nav3{
-    width: 85%;
+    width: 100%;
     margin: 0 auto;
     margin-bottom: 20px;
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 header .nav3 a{
-    font-size: 19px;
+    font-size: 18px;
     color: #000;
 }
-
+.dark-part .btn , .dark-part p , .dark-part a ,.dark-part img{
+  display: none;
+}
+.social-part p , .social-part a{
+  display: inline-block;
+}
+.footer2 .links p{
+  margin-bottom: 5px;
+}
+.footer2 .links a{
+  color: #000;
+}
+.footer2 .links h5{
+  color: #ed2027;
+  font-family: bruumBoldFont;
+}
+#footer h3, #footer h4{
+  padding-bottom: 20px;
+  border-bottom: 1px solid #dfdede;
+}
+.footer2 .links a::before{
+margin-right: 7px;
+  content: ">";
+}
+.footer1 .social{
+  display: none;
+}
+.footer1 img{
+  width: 65% !important;
+  display: none;
+}
 /* end header 2025 */
 /* header{
     position: relative;
@@ -139,7 +192,7 @@ header .right-part .nav2{
 header .nav2 ul li{
     position: relative;
     cursor: pointer;
-    
+
 }
 header .nav2 ul li:not(:last-child)::after {
     content: "";
@@ -220,6 +273,8 @@ header .nav3 ul li:not(:last-child)::after {
 .counter-top .btn a{
     text-decoration: none;
     color: #e2eef7;
+    font-weight: 700;
+    font-size: 16px;
 }
 .counter-top .btns .btn-success{
     background-color: #3f3f3f;
@@ -705,7 +760,7 @@ p.main-text{
 /* start footer */
 footer .footer1{
     background-color: #000;
-    border-bottom: 15px solid #b6b6b6;
+    border-bottom: 15px solid #ed2027;
     min-height: 180px;
     display: flex;
     align-items: center;
@@ -741,7 +796,7 @@ footer .footer1 .social ul li{
     cursor: pointer;
 }
 footer .footer2{
-    background-color: #282828;
+    background-color:#f0f0f1;
     padding-bottom: 30px;
 }
 footer .footer2 .logo{
@@ -762,24 +817,27 @@ footer .footer2 .links {
     border-right: 1px solid #f1efef;
 }
 footer .footer2 .links h5{
-    color: #f9f9f9;
+    color: #ed2027;
     margin-bottom: 20px;
     font-size: 20px;
+    font-weight: 700;
 }
 footer .footer2 .links p, footer .footer2 .links p a{
-    color: #929292;
+    color: #000;
     cursor: pointer;
     margin-bottom: 5px;
     font-size: 17px;
     text-decoration: none;
+    font-family: BruumFY-Light !important;
 }
 footer .footer2 .apps{
     padding-top: 10%;
     padding-left: 10px;
 }
 footer .footer2 .apps h4{
-    color: #f9f9f9;
+    color: #000;
     text-align: center;
+    font-family: BruumFY-Regular;
     font-size: 22px;
     line-height: 30px;
 }
@@ -790,9 +848,10 @@ footer .footer2 .apps .line{
 footer .footer2 .apps h5,
 footer .footer2 .apps h5 a{
     text-decoration: none;
-    color: #f9f9f9;
-    font-size: 17px;
+    color: #000;
+    font-size: 18px;
     line-height: 30px;
+    font-weight: 700;
     margin-bottom: 30px;
     text-align: center;
 }
