@@ -29,7 +29,16 @@
     font-family: acuminFont;
     src: url(./../fonts/Acumin\ Pro\ Medium.otf);
 }
-
+.welcome h2 , .welcome h5 , .welcome h4 , .welcome strong{
+  font-family: bruumBoldFont;
+}
+.welcome p{
+  font-size: 20px;
+}
+.welcome li{
+  font-size: 20px;
+  margin-bottom: 7px;
+}
 *{
     font-family: bruumLightFont;
     margin: 0;
@@ -102,7 +111,7 @@ header .right-part .nav2{
 header .nav2 ul li{
     position: relative;
     cursor: pointer;
-    
+
 }
 header .nav2 ul li:not(:last-child)::after {
     display: none;
@@ -933,7 +942,7 @@ footer form .btn{
 }
 @media only screen and (max-width: 1284px) {
     .banner_1 .banner-footer ul{
-       
+
         transform: translateY(10px);
     }
     .banner_1 .banner-footer p{
@@ -1123,7 +1132,7 @@ footer form .btn{
         width: 80%;
         margin: 30px auto 0;
     }
-   
+
     /* start .agenda-screen */
     .agenda-screen .photo-gallery h4{
         font-size: 20px;
@@ -1142,7 +1151,7 @@ footer form .btn{
     .event-agenda h5{
         font-size: 16px;
     }
-   
+
     footer .logo{
         margin-bottom: 20px;
         text-align: center;
