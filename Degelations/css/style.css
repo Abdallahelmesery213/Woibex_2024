@@ -67,6 +67,7 @@ header .nav2{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    text-align: center;
     margin-top: 10px;
 }
 header{
@@ -762,6 +763,13 @@ footer form .btn{
     }
     .header p{
         font-size: 16px;
+    }
+    header .nav2{
+        text-align: left;
+    }
+    header ul li{
+        width: 90%;
+        margin-left: 10%;
     }
     .banner_3 .banner-description {
         text-align: center;
