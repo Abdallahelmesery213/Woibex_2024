@@ -127,6 +127,7 @@ header .right-part .nav3{
     align-items: center;
     justify-content: center;
     padding-left: 20px;
+    text-align: center;
 }
 header .right-part .nav3 a{
     text-decoration: none;
