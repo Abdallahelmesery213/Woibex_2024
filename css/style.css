@@ -106,8 +106,9 @@ header .nav2 a{
 
 header .nav3{
     width: 100%;
-    margin: 0 auto;
-    margin-bottom: 20px;
+    /* margin: 0 auto; */
+    margin-top: -10px;
+    margin-bottom: 10px;
     display: flex;
     justify-content: center;
     text-align: center;
