@@ -354,7 +354,7 @@ header hr {
   color: #ed2027;
   font-family: BruumFY-Bold;
 }
-.welcome h3, .welcome h5{
+.welcome h3, .welcome h5 , .welcome h2 , .welcome h4{
   font-family: BruumFY-Bold;
 }
 .welcome p{

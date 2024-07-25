@@ -10,6 +10,19 @@
   font-family: BruumFY-Light;
   src: url("../fonts/BruumFY-Light.otf");
 }
+.welcome h3 ,.welcome h5 , .welcome h4 , .welcome h2{
+  font-family: BruumFY-Bold;
+}
+.welcome p{
+  font-size: 20px;
+  font-family: BruumFY-Light;
+}
+.welcome li{
+  font-size: 20px;
+  font-family: BruumFY-Light;
+  margin-bottom: 7px;
+  list-style: disc;
+}
 body {
   font-family: BruumFY-Regular !important;
   background: #fff;

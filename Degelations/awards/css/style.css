@@ -807,3 +807,13 @@ footer form .btn{
     }
 }
 /* end media query */
+.welcome h3 ,.welcome h5 , .welcome h2 , .welcome h4{
+  font-family: boldBrum;
+}
+.welcome p{
+  font-size: 20px;
+}
+.welcome li{
+  font-size: 20px;
+  margin-bottom: 7px;
+}

@@ -1223,5 +1223,14 @@ footer form .btn{
         bottom: 11%;
     }
 }
-
+.welcome h3 , .welcome h5 , .welcome h4 , .welcome h2{
+  font-family: bruumBoldFont;
+}
+.welcome p{
+  font-size: 20px;
+}
+.welcome li{
+  font-size: 20px;
+  margin-bottom: 7px;
+}
 /* end media query */
